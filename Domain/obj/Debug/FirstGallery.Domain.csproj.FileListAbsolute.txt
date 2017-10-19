@@ -1,0 +1,19 @@
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\Domain.dll.config
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\Domain.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\Domain.pdb
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.xml
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\obj\Debug\Domain.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Domain\obj\Debug\Domain.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\Domain.dll.config
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\Domain.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\Domain.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\obj\Debug\FirstGallery.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\obj\Debug\Domain.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Domain\obj\Debug\Domain.pdb

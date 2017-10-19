@@ -1,0 +1,28 @@
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Data.dll.config
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Data.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Data.pdb
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Domain.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Domain.pdb
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.xml
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\FirstGallery.Data.csprojResolveAssemblyReference.cache
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\Data.dll
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\Data.pdb
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\Data.Migrations.Migrations.resources
+C:\Users\houssem rezgui\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\FirstGallery.Data.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Data.dll.config
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Data.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Data.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Domain.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\Domain.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\FirstGallery.Data.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\Data.Migrations.Migrations.resources
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\FirstGallery.Data.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\Data.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\firstGallery\Data\obj\Debug\Data.pdb
