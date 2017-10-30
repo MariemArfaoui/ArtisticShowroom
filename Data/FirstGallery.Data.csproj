@@ -60,11 +60,6 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201710191454476_Migrations.cs" />
-    <Compile Include="Migrations\201710191454476_Migrations.Designer.cs">
-      <DependentUpon>201710191454476_Migrations.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,11 +71,6 @@
       <Project>{7fe0f328-3ab8-4e46-963a-57d5a110b677}</Project>
       <Name>FirstGallery.Domain</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710191454476_Migrations.resx">
-      <DependentUpon>201710191454476_Migrations.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

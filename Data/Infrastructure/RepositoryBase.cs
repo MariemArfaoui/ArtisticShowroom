@@ -1,5 +1,4 @@
-﻿using Data;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -7,11 +6,11 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace firstGallery.Data.Infrastructure
+namespace Data.Infrastructure
 {
     public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        private FirstGalleryContext dataContext;
+        private ArtisticShowroomContext dataContext;
         private readonly IDbSet<T> dbset;
         IDatabaseFactory databaseFactory;
         public RepositoryBase(IDatabaseFactory dbFactory)
@@ -21,7 +20,7 @@ namespace firstGallery.Data.Infrastructure
 
 
         }
-        protected FirstGalleryContext DataContext
+        protected ArtisticShowroomContext DataContext
         {
             get { return dataContext = databaseFactory.DataContext; }
         }

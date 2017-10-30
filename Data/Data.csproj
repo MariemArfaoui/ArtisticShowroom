@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5AE42A6D-FD15-4145-ABAC-E6A70267367F}</ProjectGuid>
+    <ProjectGuid>{D17F1C4E-75CA-49B7-8BA9-D3185E07AD75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Data</RootNamespace>
@@ -49,9 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configurations\AddressConfiguration.cs" />
-    <Compile Include="Convention\DateTime2Convention.cs" />
-    <Compile Include="FirstGalleryContext.cs" />
+    <Compile Include="ArtisticShowroomContext.cs" />
+    <Compile Include="CustumConventions\DateTime2Convention.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDatabaseFactory .cs" />
@@ -59,9 +58,41 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201710162323121_Migrations.cs" />
-    <Compile Include="Migrations\201710162323121_Migrations.Designer.cs">
-      <DependentUpon>201710162323121_Migrations.cs</DependentUpon>
+    <Compile Include="Migrations\201710231101232_m1.cs" />
+    <Compile Include="Migrations\201710231101232_m1.Designer.cs">
+      <DependentUpon>201710231101232_m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710231453384_m2.cs" />
+    <Compile Include="Migrations\201710231453384_m2.Designer.cs">
+      <DependentUpon>201710231453384_m2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710232206255_m3.cs" />
+    <Compile Include="Migrations\201710232206255_m3.Designer.cs">
+      <DependentUpon>201710232206255_m3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710232221450_m4.cs" />
+    <Compile Include="Migrations\201710232221450_m4.Designer.cs">
+      <DependentUpon>201710232221450_m4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710242318308_m5.cs" />
+    <Compile Include="Migrations\201710242318308_m5.Designer.cs">
+      <DependentUpon>201710242318308_m5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710251553110_m6.cs" />
+    <Compile Include="Migrations\201710251553110_m6.Designer.cs">
+      <DependentUpon>201710251553110_m6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710252311302_m7.cs" />
+    <Compile Include="Migrations\201710252311302_m7.Designer.cs">
+      <DependentUpon>201710252311302_m7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710272335502_m8.cs" />
+    <Compile Include="Migrations\201710272335502_m8.Designer.cs">
+      <DependentUpon>201710272335502_m8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710282252283_m9.cs" />
+    <Compile Include="Migrations\201710282252283_m9.Designer.cs">
+      <DependentUpon>201710282252283_m9.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,13 +103,40 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{7fe0f328-3ab8-4e46-963a-57d5a110b677}</Project>
+      <Project>{143af5f0-5f1c-4e78-8950-74855b62cb4c}</Project>
       <Name>Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710162323121_Migrations.resx">
-      <DependentUpon>201710162323121_Migrations.cs</DependentUpon>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710231101232_m1.resx">
+      <DependentUpon>201710231101232_m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710231453384_m2.resx">
+      <DependentUpon>201710231453384_m2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710232206255_m3.resx">
+      <DependentUpon>201710232206255_m3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710232221450_m4.resx">
+      <DependentUpon>201710232221450_m4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710242318308_m5.resx">
+      <DependentUpon>201710242318308_m5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710251553110_m6.resx">
+      <DependentUpon>201710251553110_m6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710252311302_m7.resx">
+      <DependentUpon>201710252311302_m7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710272335502_m8.resx">
+      <DependentUpon>201710272335502_m8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710282252283_m9.resx">
+      <DependentUpon>201710282252283_m9.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

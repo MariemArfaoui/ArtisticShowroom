@@ -1,17 +1,15 @@
-﻿using Data;
-using firstGallery.Data.Infrastructure;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace firstGallery.Data.Infrastructure
+namespace Data.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {
        
-         private FirstGalleryContext dataContext;
+         private ArtisticShowroomContext dataContext;
 
         IDatabaseFactory dbFactory;
         public UnitOfWork(IDatabaseFactory dbFactory)

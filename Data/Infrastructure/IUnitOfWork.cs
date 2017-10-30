@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace firstGallery.Data.Infrastructure
+namespace Data.Infrastructure
 {
     public interface IUnitOfWork : IDisposable
     {

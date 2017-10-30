@@ -1,0 +1,46 @@
+﻿@model Artistic_Showroom_Web.Models.BookingViewModels
+
+@{
+    ViewBag.Title = "ParticipateToEvent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ParticipateToEvent</h2>
+
+<div>
+    <h4>BookingViewModels</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Welcome 
+        </dt>
+
+        @*<dd>
+            @ViewBag.usersname;   
+        
+        </dd>
+
+        <dt>
+            To 
+        </dt>
+
+        <dd>
+            @ViewBag.evs;
+
+        </dd>*@
+              
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.qrcodeUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qrcodeUrl)
+        </dd>*@
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,14 +1,22 @@
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\Data.dll.config
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\Data.dll
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\Data.pdb
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\Domain.dll
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.dll
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\Domain.pdb
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.xml
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\obj\Debug\Data.Migrations.Migrations.resources
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\obj\Debug\Data.csproj.GenerateResource.Cache
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\obj\Debug\Data.dll
-C:\Users\houssem rezgui\documents\visual studio 2015\Projects\firstGallery\Data\obj\Debug\Data.pdb
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\Data.dll.config
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\Data.dll
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\Data.pdb
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\Domain.dll
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\Domain.pdb
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.dll
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.pdb
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m1.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m2.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m3.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m4.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m5.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m6.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m7.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m8.resources
+C:\Users\Asus\Documents\Esprit\4éme Année\PI\Project.net\ArtisticShowroomV2\Data\obj\Debug\Data.Migrations.m9.resources

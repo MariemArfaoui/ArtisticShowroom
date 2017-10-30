@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Artistic_Showroom_Web.Models.EventViewModels>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    function btnSent_Click()
+    {
+        __doPostBack('Invite', '')
+
+        var data = JSON.stringify({
+            "from": "InfoSMS",
+            "to": "+21655323667",
+            "text": "Test SMS."
+        });
+
+        var xhr = new XMLHttpRequest();
+        xhr.withCredentials = false;
+
+        xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === this.DONE) {
+                console.log(this.responseText);
+            }
+        });
+
+        xhr.open("POST", "https://api.infobip.com/sms/1/text/single");
+        xhr.setRequestHeader("authorization", "Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==");
+        xhr.setRequestHeader("content-type", "application/json");
+        xhr.setRequestHeader("accept", "application/json");
+
+        xhr.send(data);
+     }
+</script>
+
+<h2>Index</h2>
+
+<p class="button">
+    @Html.ActionLink("Create New Event", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.imageURL)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.startDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.endDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.actualDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.inclusions)
+        </th>
+        <th></th>
+    </tr>
+
+    @if (Model != null)
+    {
+
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @*recuperer l'image*@
+                    @{string path = "~/Content/Upload/" + @item.imageURL;}
+                    @*enlever label for pour afficher seulement l'image*@
+                    <img src="@Url.Content(path)" width="50" height="50" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.startDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.actualDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.inclusions)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.eventId } , htmlAttributes: new { @class = "button" }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.eventId }, htmlAttributes: new { @class = "button" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.eventId }, htmlAttributes: new { @class = "button" }) |
+                    @Html.ActionLink("Participate", "Participate", new { id = item.eventId }, htmlAttributes: new { @class = "button" }) 
+                    @*<input type="submit" value="Invite" class="btn btn-default" onclick="btnSent_Click" />*@
+                    @*<asp:Button ID="Invite" runat="server" Text="Invite"  type="submit" value="Invite" />*@
+
+                </td>
+            </tr>
+
+                            }
+                        }
+
+</table>
+
+@*<input type="image" src="@Url.Content("~/Content/Upload/2016-12-04 18.46.56.jpg")" alt="Image"/>*@
+
+
+
+
+
+
+
+
+
+

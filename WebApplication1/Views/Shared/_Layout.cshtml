@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .button {
+    background-color: #0080B0; /* Green */
+    border-radius: 12px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 5px 2px;
+    cursor: pointer;
+    }
+        </style>
+    <title>@Page.Title</title>
+    @RenderSection("head", required: false)
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marqa Portfolio</title>
+    <meta name="description" content="tottaly responsive personal portfolio template" />
+    <meta name="keywords" content="responsive, template, portfolio, html, css, javascript" />
+    <meta name="author" content="Ahmed Beheiry" />
+    <!-- Open Sans Google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Raleway Google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="@Url.Content("~/Content/MyTemplate/img/favico/")marqa.ico">
+    <link rel="apple-touch-icon" sizes="60x60" href="@Url.Content("~/Content/MyTemplate/img/favico/")apple-icon-60x60.png">
+    <!-- Fontawesome fonts css file -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/css/")font-awesome.min.css">
+    <!-- Animate.css file -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/css/")animate.css">
+    <!-- Owl carousel css file -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/css/")owl.carousel.css">
+    <!-- Bootstrap file -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/css/")bootstrap.min.css">
+    <!-- Custom styles css file -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/css/")style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+
+<body>
+    <!-- Start Header Section -->
+    <div class="header" id="header">
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <div class="content center">
+                <div class="container">
+                    <p>Hello, It's </p>
+                    <h1>Artistic Showroom</h1>
+                    <a href="#about-me">Read more</a>
+                    <a href="@Url.Action("Index", "Event")">my Events</a>
+                </div> <!-- End container -->
+            </div>
+            <div class="mouse" id="mouse"></div>  <!-- Mouse Icon -->
+        </div>
+    </div>
+    <!-- End Header Section -->
+    <!-- Start Side Menu -->
+    <nav id="top-nav">
+        <div class="logo center"><a href="#">Marqa</a></div> <!-- LOGO -->
+        <div class="menu" id="menu">
+            <span class="bar b1"></span>
+            <span class="bar b2"></span>
+            <span class="bar b3"></span>
+        </div>
+        <div class="side-menu" id="side-menu">
+            <!-- Menu items -->
+            <a href=@Url.Action("Index", "Calendar")>Calendar</a>
+            <a href="@Url.Action("Index", "Event")">Current Event List</a>
+            <a href=@Url.Action("Create", "Event")>Add new Event</a>
+            <a href=@Url.Action("BestEvent", "Event")>Best Event</a>
+            <a href=@Url.Action("GetPassedEvent", "Event")>Passed Event</a>
+            <a href=@Url.Action("GetListEvent", "Booking")>Participations</a>
+
+        </div>
+    </nav>
+    <!-- End Side Menu -->
+
+    <div class="container body-content">
+
+        @RenderBody()
+
+    </div>
+
+
+    <!-- Start Footer Section -->
+    <div class="footer center">
+        <div class="container">
+            <div class="row">
+                <div class="follow-me">follow me</div>
+                <div class="col-md-12 col-xs-12 links">
+                    <!-- Social links -->
+                    <div class="icon-wrapper center">
+                        <!-- Facebook Link -->
+                        <a href="#" class="icon fb">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <!-- Twitter Link -->
+                        <a href="#" class="icon tw">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <!-- Github Link -->
+                        <a href="#" class="icon gh">
+                            <i class="fa fa-github"></i>
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <!-- Google Plus Link -->
+                        <a href="#" class="icon gp">
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <!-- Linkedin Link -->
+                        <a href="#" class="icon lin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <!-- Pinterest Link -->
+                        <a href="#" class="icon pin">
+                            <i class="fa fa-pinterest"></i>
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md12 col-xs-12 copyright">
+                    <h6>&copy; Marqa 2016 All RightsReserved. Designed by Ahmed Beheiry</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Section -->
+    <!-- Start To Top button -->
+    <div class="back-to-top center">
+        <i class="fa fa-long-arrow-up"></i>
+    </div>
+    <!-- End To Top button -->
+    <!-- Start scroll percentage -->
+    <div id="scroll"></div>
+    <!-- End scroll percentage -->
+    <!-- Including jQuery file -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")jquery-1.12.1.min.js"></script>
+    <!-- Including jQuery.appear file -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")jquery.appear.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")bootstrap.min.js"></script>
+    <!-- easy pie chart -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")jquery.easypiechart.min.js"></script>
+    <!-- NiceScroll plugin -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")jquery.nicescroll.min.js"></script>
+    <!-- animate numbers plugin -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")jquery.animatenumber.min.js"></script>
+    <!-- Horizontal bar chart -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")bars.js"></script>
+    <!-- mixitup plugin -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")jquery.mixitup.min.js"></script>
+    <!-- animated background header -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")tweenlite.min.js"></script>
+    <!-- form validation file -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")validator.min.js"></script>
+    <!-- Owl carousel js file -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")owl.carousel.min.js"></script>
+    <!-- Google Map -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJOx2cEs3x3dTSubqABijclN_3uEmL7f8"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
+    <!-- Custom file  -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")plugins.js"></script>
+    <!-- Wow.js file -->
+    <script src="@Url.Content("~/Content/MyTemplate/js/")wow.min.js"></script>
+    <script>
+			new WOW().init();
+    </script>
+
+
+
+    <script src="~/Scripts/jquery-2.0.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    @Scripts.Render("~/Scripts/jquery-2.0.0.min.js")
+
+    @RenderSection("scripts", false)
+</body>
+</html>

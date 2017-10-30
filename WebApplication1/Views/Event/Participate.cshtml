@@ -1,0 +1,52 @@
+﻿@model Artistic_Showroom_Web.Models.BookingViewModels
+@using WebApplication1.Helpers
+
+@{
+    ViewBag.Title = "Participate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<h2>ParticipateToEvent</h2>
+
+<div>
+   
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Welcome
+            </dt>
+
+            <dd>
+                @ViewBag.usersname;
+
+            </dd>
+
+            <dt>
+                To
+            </dt>
+
+            <dd>
+                @ViewBag.evs;
+
+            </dd>
+
+
+        </dl>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Participate" class="button" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+
+            @Html.GenerateQrCode(Model.qrcodeUrl);
+
+        }
+
+    }
+    
+</div>
+
+ 
